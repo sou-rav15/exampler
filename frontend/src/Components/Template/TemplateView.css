@@ -1,0 +1,104 @@
+/* .resume-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .resume-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .resume-field {
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+   
+ 
+   .resume-container {
+    width: 500px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    
+}
+
+.resume-header {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.resume-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.highlight {
+    color: #f9a825;
+}
+
+.resume-header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.resume-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column, .right-column {
+    padding: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #f9a825;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 3px 0;
+    font-size: 14px;
+}
+
+.contact p, .summary p {
+    font-size: 14px;
+}
+
+.right-column p {
+    font-size: 14px;
+}
+
+.experience ul, .education p {
+    margin-top: 5px;
+    font-size: 14px;
+} */

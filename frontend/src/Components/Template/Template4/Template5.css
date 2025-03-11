@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Playwrite+DE+Grund:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.body-container{
+    background-color: gray;
+    width:vw;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-content{
+    background-color:white;
+
+    width: 800px;
+    height: 1100px;
+}
+.resume-box1{
+    /* background-color: red; */
+    width: 70%;
+    height: 80px;
+    margin:20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Name-box{
+    width: auto;
+    /* background-color: rgb(34, 0, 128); */
+    height: 50px;
+    padding: 0px 30px 10px 30px ;
+    font-size: 42px;
+    font-weight: 200;
+    font-family: lora ,sans-serif;
+    margin-bottom: 4px;
+}
+.details-box{
+    font-family:lora,sans-serif;
+    width: 380px;
+    color: black;
+    /* background-color: green; */
+    height: 40px;
+    padding: 1px 10px 0px 10px ;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    column-gap: 7px; margin-bottom: 8px;
+
+}
+.phone-number-box{
+    display: flex; column-gap: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center; margin-top: 3px;
+    
+}
+.phone-number-icon{
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+}
+
+.mail-box{
+    display: flex; column-gap: 2px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+
+.githublink{
+    display: flex; justify-content: center;
+    align-items: center;column-gap: 2px;
+    text-decoration: underline;
+    
+}
+.githublink:hover{
+    cursor: pointer;
+}
+.linkdin{
+    display: flex; justify-content: center;
+    align-items: center; column-gap: 2px;
+    text-decoration: underline;
+}
+/* box-2 */
+.resume-box2{
+    /* background-color: green; */
+    font-family: lora,sans-serif;
+    width: 94%;
+    height: 70px;
+    margin: 0 auto;
+   
+    
+    
+}
+.resume-education{
+    color: #a34534;
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+.border-line{
+    border-bottom: 2px solid #a34534;
+    margin: 0 3px;
+}
+.resume-left{
+    /* background-color:red; */
+    width: 50%;
+}
+.college-name{
+    font-weight: 600;
+  
+    font-size: 13px;
+    word-spacing: 3px;
+}
+.resume-course-name{
+    font-style: italic;
+    font-size: 11px;
+    
+}
+.resume-right{
+    /* background-color:red; */
+}
+.resume-education-details{
+    display: flex;
+    justify-content: space-between
+}
+.graduation-year{
+    font-weight: 600;
+    font-size: 13px;
+    word-spacing: 3px;
+}
+.graduation-marks{
+    font-style: italic;
+    font-size: 11px;
+}
+/* box3 */
+.resume-box3{
+    /* background-color: green; */
+    font-family: lora,sans-serif;
+    width: 94%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2px 0px 5px 0px;
+       
+}
+.resume-heading{
+    display: flex;  justify-content: space-between;
+    font-weight: 500;
+    font-size: 13px;
+}
+.companyname{
+    font-weight: 600;
+    font-size: 13px;
+    word-spacing: 3px;
+    /* background: red; */
+}
+.jobTitle{
+    margin-top: -20px;
+    font-style: italic;
+    font-size: 11px;
+    /* background: green; */
+}
+.workexperience{
+    text-align: justify;
+    font-size: 13px;
+}
+.resume-box4{
+    font-family: lora,sans-serif;
+    /* background-color: red; */
+    width: 94%;
+    height: auto;
+    padding:2px 0px 5px 0px ;
+    margin: 0 auto;
+    /* font-size: 12px; */
+
+  
+}
+.project-details{
+    font-size: 12px;
+    text-align: justify;
+}
+/* box-5 */
+.resume-box5{
+    font-family: lora,sans-serif;
+    /* background-color: gray; */
+    width: 94%;
+    height: auto;
+    padding:2px 0px 12px 0px ;
+    margin: 0 auto;
+  
+}
+.language, .webTechnologies, .cloud{
+    display: flex;
+   column-gap: 5px;
+}
+.language-heading, .Technologies-heading,.cloud-heading{
+    font-weight: 700;
+    font-size: 14px;
+    word-spacing: 3px;  
+}
+.languages {
+   font-size: 12x;
+    gap: 5px; /* Optional: Adds spacing between items */
+}
+/* box6 */
+.resume-box6{
+    font-family: lora,sans-serif;
+    /* background-color: rgb(85, 187, 2); */
+    width: 94%;
+    height: auto;
+    padding:2px 0px 12px 0px ;
+    margin: 0 auto;
+}
+.honors-heading{
+    font-weight: 600;
+    font-size: 14px;
+    word-spacing: 3px;
+    font-weight: 500;
+}
+.honors-details{
+    text-align: justify;
+    font-size: 12px;
+}
+/* box7 */
+.resume-box7{
+    font-family: lora,sans-serif;
+    /* background-color: rgb(184, 219, 156); */
+    width: 94%;
+    height: auto;
+    padding:2px 0px 12px 0px ;
+    margin: 0 auto;
+    margin-bottom: 9px;
+}
+.achivement-list{
+    list-style-type:disc;
+    list-style-position: inside;
+
+}
+.achivements-data{
+    text-align: justify;
+    font-size: 12px;
+    padding:2px;
+    margin-left:19px;
+    
+}
+.workExperince-list{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 10px;
+    font-size:12px ;
+    padding: 3px;
+}
+
+.technical-details{
+    font-size: 12px;
+}
